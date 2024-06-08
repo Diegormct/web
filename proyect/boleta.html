@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boleta</title>
+    <link rel="stylesheet" type="text/css" href="css/boleta.css">
+</head>
+<body>
+    <header id="encabezado">
+        <h3>BELISARIO DOMINGUEZ</h3>
+    </header>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="proto5.html">Regresar</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <section id="sec1">
+        <h2>BOLETA</h2>
+        <table id="boleta-table">
+            <thead>
+                <tr>
+                    <th>Materia</th>
+                    <th>Trimestre 1</th>
+                    <th>Trimestre 2</th>
+                    <th>Trimestre 3</th>
+                    <th>Promedio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td onclick="askGrades(this)">Español</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td onclick="askGrades(this)">Matemáticas</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td onclick="askGrades(this)">Lectura</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td onclick="askGrades(this)">Ciencias</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td onclick="askGrades(this)">Formación Cívica y Ética</td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td contenteditable="true"></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer id="pie1">
+        <h2>Terminos y condiciones</h2>
+    </footer>
+    <footer id="pie2">
+        <h2>Referencias</h2>
+    </footer>
+    <footer id="pie3">
+        <h2>Ayuda</h2>
+    </footer>
+    <hr>
+
+    <script src="js/boleta.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+hr {
+    border: 0.1px solid #FFDB58;
+    margin: 0.1px 0;
+}
+
+#encabezadol {
+    background: darkblue;
+    color: black;
+    float: left;
+    width: 5%;
+    height: 40px;
+}
+
+#encabezado {
+    background: black;
+    color: white;
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#navbar {
+    background: #333;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: lightsteelblue;
+}
+
+#logout-section {
+    background: white;
+    margin: 20px auto;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logout-button, #cancel-button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#logout-button:hover, #cancel-button:hover {
+    background-color: lightsteelblue;
+}
+
+#pie1, #pie2, #pie3 {
+    background: black;
+    float: left;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pie1 {
+    clear: both;
+    width: 20%;
+}
+
+#pie2 {
+    width: 15%;
+}
+
+#pie3 {
+    width: 65%;
+}

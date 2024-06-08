@@ -1,0 +1,102 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+hr {
+    border: 0.1px solid #FFDB58;
+    margin: 0.1px 0;
+}
+
+/* Header Styles */
+#encabezado {
+    background: white;
+    color: black;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+#navbar {
+    background: black;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: lightsteelblue;
+}
+
+/* Article Styles */
+#sec2 {
+    background: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Footer Styles */
+footer {
+    background: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#pie1, #pie2, #pie3 {
+    background: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#pie1 {
+    float: left;
+    clear: both;
+    width: 20%;
+}
+
+#pie2 {
+    float: left;
+    width: 15%;
+}
+
+#pie3 {
+    float: left;
+    width: 65%;
+}

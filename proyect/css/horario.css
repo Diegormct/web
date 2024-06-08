@@ -1,0 +1,94 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+hr {
+    border: 0.1px solid #FFDB58;
+    margin: 0.1px 0;
+}
+
+/* Header Styles */
+#encabezado {
+    background: white;
+    color: black;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+#navbar {
+    background: black;
+    overflow: hidden;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: lightsteelblue;
+}
+
+/* Article Styles */
+#sec4 {
+    background: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Table Styles */
+#horario-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#horario-table th, #horario-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#horario-table th {
+    background-color: #f2f2f2;
+}
+
+#horario-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#horario-table tr:hover {
+    background-color: #ddd;
+}

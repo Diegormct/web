@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+hr {
+	border: 0.1px solid #FFDB58;
+	margin: 0.1px 0;
+}
+
+#encabezadol {
+	background: darkblue;
+	color: white;
+	float: left;
+	width: 5%;
+	height: 40px;
+}
+
+#encabezado {
+	background: black;
+	color: white;
+	width: 100%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#navbar {
+	background: #333;
+	overflow: hidden;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#navbar li {
+	display: inline;
+}
+
+#navbar a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+	background-color: lightsteelblue;
+}
+
+#encabezadoi {
+	flex: 1;
+	background: black;
+}
+
+#log {
+	background: black;
+	color: white;
+}
+
+#encabezadob {
+	background: #FFDB58;
+}
+
+#sec1 {
+    background: #3498db; 
+    float: left;
+    width: 50%;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#sec1 h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#sec2 {
+	background: #3498db;
+	float: left;
+	width: 50%;
+	height: 400px;
+	color: white;
+}
+
+#pie1 {
+	background: black;
+	float: left;
+	clear: both;
+	width: 20%;
+	color: white;
+}
+
+#pie2 {
+	background: black;
+	float: left;
+	width: 15%;
+	color: white;
+}
+
+#pie3 {
+	background: black;
+	float: left;
+	width: 65%;
+	color: white;
+}
